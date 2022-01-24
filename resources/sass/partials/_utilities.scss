@@ -1,5 +1,9 @@
 // UTILITIES
 
+main{
+  height: calc(100vh - 100px - 80px) !important;
+}
+
 .container{
   width: 1200px;
   margin: 0 auto;

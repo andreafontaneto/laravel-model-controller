@@ -1,6 +1,6 @@
 <header class="mb-5 af-header">
 
-  <div class="container py-3">
+  <div class="container">
     <ul class="nav nav-pills">
       <li class="nav-item">
         <a class="nav-link {{ (Route::currentRouteName() === 'home') ? 'af-active' : '' }}" aria-current="page" href="{{ route('home') }}">HOME</a>

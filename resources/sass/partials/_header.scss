@@ -2,7 +2,10 @@
 
 .af-header{
   width: 100vw !important;
+  height: 100px !important;
   background-color: #545b62;
+  display: flex;
+  align-items: center;
   
   a{
     color: white !important;

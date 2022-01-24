@@ -10037,6 +10037,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  height: calc(100vh - 100px - 80px) !important;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -10044,7 +10048,10 @@ a {
 
 .af-header {
   width: 100vw !important;
+  height: 100px !important;
   background-color: #545b62;
+  display: flex;
+  align-items: center;
 }
 .af-header a {
   color: white !important;
