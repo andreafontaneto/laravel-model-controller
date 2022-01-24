@@ -10019,3 +10019,64 @@ h3 {
     border-color: #dee2e6;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(0deg, #333333 0%, #afafaf 100%);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.af-header {
+  width: 100vw !important;
+  background-color: #545b62;
+}
+.af-header a {
+  color: white !important;
+}
+
+.af-active {
+  background-color: firebrick;
+}
+
+.af-cards-box {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.af-card {
+  width: calc(25% - 20px) !important;
+  margin: 20px 10px !important;
+}
+
+.af-footer {
+  width: 100vw !important;
+  height: 80px !important;
+  background-color: black !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  color: white;
+}
+.af-footer .af-laravel {
+  color: red;
+}
+.af-footer .af-bootstrap-ui {
+  color: #7952B3;
+}

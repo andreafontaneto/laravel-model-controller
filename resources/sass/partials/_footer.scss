@@ -1,0 +1,20 @@
+// FOOTER
+
+.af-footer{
+  width: 100vw !important;
+  height: 80px !important;
+  background-color: black !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  color: white;
+
+  .af-laravel{
+    color: red;
+  }
+
+  .af-bootstrap-ui{
+    color: $bootstrap-color;
+  }
+}

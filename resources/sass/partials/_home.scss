@@ -1,0 +1,11 @@
+// HOME
+
+.af-cards-box{
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.af-card{
+  width: calc((100% / 4) - 20px) !important;
+  margin: 20px 10px !important;
+}

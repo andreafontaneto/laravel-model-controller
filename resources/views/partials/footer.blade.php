@@ -1,5 +1,7 @@
-<footer class="container my-5">
+<footer class="mt-5 af-footer">
 
-  <p>Made with <span class="laravel">Laravel</span> and <span class="bootstrap-ui">Boostrap UI</span></p>
+  <p class="container">
+    Made with <span class="af-laravel">Laravel</span> and <span class="af-bootstrap-ui">Boostrap UI</span>
+  </p>
 
 </footer>

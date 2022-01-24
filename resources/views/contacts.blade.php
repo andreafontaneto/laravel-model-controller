@@ -2,15 +2,13 @@
 
 @section('content')
 
-<div class="container">
+<main class="container af-main">
   <h1>CONTACTS</h1>
+  <br>
+  <h4>Stay in touch!</h4>
+  <br>
 
   <table class="table">
-    <thead>
-      <tr>
-        <th scope="col">Stay in touch!</th>
-      </tr>
-    </thead>
     <tbody>
       <tr>
         <th scope="row">Fullname</th>
@@ -26,6 +24,6 @@
       </tr>
     </tbody>
   </table>
-</div>
+</main>
   
 @endsection

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container">
+<main class="container af-main">
   <h1>ABOUT</h1>
 
   <p>
@@ -11,6 +11,6 @@
     Ab iusto reiciendis incidunt aut quos ex maiores sequi, et fugiat nemo, voluptatem necessitatibus, eveniet repellat doloribus perferendis amet tempore distinctio laudantium labore eligendi molestiae pariatur? Natus esse asperiores quis.
   </p>
 
-</div>
+</main>
   
 @endsection
