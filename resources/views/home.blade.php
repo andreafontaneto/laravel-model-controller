@@ -3,9 +3,11 @@
 @section('content')
 
 <div class="container">
-  
-  <h1>HOME</h1>
-  {{-- <h3>Ciao {{ $name }} {{ $surname }}!</h3> --}}
+
+  <div class="welcome-message my-5">
+    <h2>Ciao {{ $name }} {{ $surname }}!</h2>
+    <h5>Ecco la lista di film scelti per te</h5>
+  </div>
 
   @forelse ($movies as $movie)
   <div class="card" style="width: 18rem;">
