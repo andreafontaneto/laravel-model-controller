@@ -15,8 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PageController@index')->name('home');
 
-Route::get('/movies', function () {
-    return view('movies');
-})->name('movies');
+Route::get('/movies', 'MovieController@index')->name('movies');
 
 Route::get('/contacts', 'PageController@contacts')->name('contacts');
