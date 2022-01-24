@@ -10037,7 +10037,7 @@ a {
   text-decoration: none;
 }
 
-main {
+.af-main {
   height: calc(100vh - 100px - 80px) !important;
 }
 
